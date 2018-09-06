@@ -3,8 +3,8 @@
 
 def key_for_min_value(name_hash)
   lowest = ""
-  name_hash.each do |value, key|
-    if value < 4
+  name_hash.each do |key, value|
+    if value == value < 4
       lowest = key
     end
   end
