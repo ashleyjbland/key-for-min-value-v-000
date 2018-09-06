@@ -6,5 +6,7 @@ def key_for_min_value(name_hash)
     if value < 4
       key
     end
+  else
+    nil
   end
 end
