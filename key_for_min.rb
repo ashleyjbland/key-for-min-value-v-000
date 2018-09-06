@@ -2,5 +2,5 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  name_hash.reduce{ |f, s| f.last > s.last ? s : f }.first
+  name_hash.reduce{|value, key| value.last > key.last ? s : f }.first
 end
