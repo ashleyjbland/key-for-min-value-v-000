@@ -3,5 +3,5 @@
 
 def key_for_min_value(name_hash)
   name_hash.invert
-  name_hash.first
+  name_hash[key].first
 end
